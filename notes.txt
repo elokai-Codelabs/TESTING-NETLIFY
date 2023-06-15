@@ -1,0 +1,9 @@
+1. Create a repository on GitHub
+2. Clone the repository on GitHub
+3. Copy and Paste your files into the repository
+
+4. PUSH TO GitHub
+a. git add .
+b. git commit -m "Add the message"
+c. git push
+
