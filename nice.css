@@ -1,0 +1,123 @@
+* {
+  text-decoration: none !important;
+}
+.header {
+  background-color: brown;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-box {
+  margin-left: 25px;
+}
+
+.nav-item {
+  margin: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+}
+.hero {
+  background-image: url(ndc-logo/banner.jpg);
+  background-repeat: no-repeat;
+  height: 60vh;
+}
+.letter-head {
+  text-align: center;
+  font-size: 50px;
+}
+.letter {
+  max-width: 70vw;
+  margin: 1rem auto;
+  text-align: center;
+}
+.letter-p {
+  font-size: 30px;
+}
+
+.sign-image-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pdf-btn {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.pdf-text:hover {
+  color: black;
+}
+
+.pdf-text {
+  background-color: #0a4a25 !important;
+  padding: 20px 80px;
+  color: white;
+  text-decoration: none !important;
+  border-radius: 10px;
+  font-size: 25px;
+}
+
+.fa {
+  padding: 20px 16px;
+  font-size: 8rem;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+}
+.fag {
+  background-color: #0a4a25 !important;
+}
+.fa:hover {
+  background-color: blueviolet;
+}
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.footer {
+  background-color: #aa0e25;
+  height: 20rem;
+  color: white;
+}
+.flex-footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* .flex-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 80vw;
+    margin: 0px auto;
+  } */
+
+/* phones */
+@media screen and (max-width: 480px) {
+  .flex-footer {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sign-image-box {
+    max-width: 90vw;
+    margin: 0px auto;
+  }
+  .pdf-btn {
+    text-align: start;
+    margin-top: 2rem;
+  }
+
+  .pdf-text {
+    color: black;
+  }
+}
